@@ -1,4 +1,3 @@
-//comment
 type ShuttleNetwork = 'ethereum' | 'bsc';
 
 interface NetworkInfo {
