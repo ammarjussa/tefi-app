@@ -44,8 +44,6 @@ export const ShortTitle = ['Name', 'Shorted', 'Locked UST', 'Unlocked UST', 'Rew
 //StarTerra Farm
 export const StarTerraFarmTitle = ['Name', 'Faction', 'Staked', 'Value', 'Reward'];
 
-//LocalStorage
-
 export const ADDRESS_KEY = 'address';
 export const LOCAL_ADDRESS_TYPE = 'local';
 export const WALLET_ADDRESS_TYPE = 'wallet';
