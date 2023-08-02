@@ -1,4 +1,4 @@
-import React, { FC, SVGProps, ReactChild, ReactChildren, MouseEvent } from 'react';
+import React, { FC, SVGProps, MouseEvent } from 'react';
 import ReactDOM from 'react-dom';
 import { StyledButton, StyledIcon, Container, Triangle, StyledMenu } from './HelperStyle';
 
@@ -6,7 +6,7 @@ import { StyledButton, StyledIcon, Container, Triangle, StyledMenu } from './Hel
 export interface ButtonProps {
   active?: boolean;
   reversed?: boolean;
-  children?: ReactChild | ReactChildren;
+  children?: any;
   onMouseDown?: (event: MouseEvent) => void;
 }
 
