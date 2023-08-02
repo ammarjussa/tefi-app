@@ -26,6 +26,11 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
+"@apollo/cache-control-types@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@apollo/cache-control-types/-/cache-control-types-1.0.3.tgz#5da62cf64c3b4419dabfef4536b57a40c8ff0b47"
+  integrity sha512-F17/vCp7QVwom9eG7ToauIKdAxpSoadsJnqIfyryLFSkLSOEqu+eC5Z3N8OXcUVStuOMcNHlyraRsA6rRICu4g==
+
 "@apollo/client@^3.3.18":
   version "3.6.9"
   resolved "https://registry.npmjs.org/@apollo/client/-/client-3.6.9.tgz"
@@ -56,6 +61,15 @@
   dependencies:
     "@apollo/subgraph" "^0.1.5"
     apollo-graphql "^0.9.5"
+    apollo-server-types "^3.0.2"
+    lodash.xorby "^4.7.0"
+
+"@apollo/federation@^0.38.1":
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/@apollo/federation/-/federation-0.38.1.tgz#0b8a9b4cbf5ebfa3106c20c47ec1f33cf92102a0"
+  integrity sha512-miifyAEsFgiYKeM3lUHFH6+vKa2vm9dXKSyWVpX6oeJiPblFLe2/iByN3psZQO2sRdVqO1OKYrGXdgKc74XDKw==
+  dependencies:
+    "@apollo/subgraph" "^0.6.1"
     apollo-server-types "^3.0.2"
     lodash.xorby "^4.7.0"
 
@@ -134,6 +148,13 @@
   integrity sha512-i1uU9llldGMV7GcBOUQRqnbGfgOpc6nrOVw93oKlugZq5R00q8y/RX8KgvMfdXZyr4MJ2/gO6Kw7LzbjCKU+Kw==
   dependencies:
     apollo-graphql "^0.9.5"
+
+"@apollo/subgraph@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@apollo/subgraph/-/subgraph-0.6.1.tgz#18f496f496ecf42d0eb372ab1d2d457d30e5a76e"
+  integrity sha512-w/6FoubSxuzXSx8uvLE1wEuHZVHRXFyfHPKdM76wX5U/xw82zlUKseVO7wTuVODTcnUzEA30udYeCApUoC3/Xw==
+  dependencies:
+    "@apollo/cache-control-types" "^1.0.2"
 
 "@apollo/utils.dropunuseddefinitions@^1.1.0":
   version "1.1.0"
