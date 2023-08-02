@@ -1,6 +1,5 @@
 import { FC, ReactChildren, ReactChild, ReactNode } from 'react';
 import dynamic from 'next/dynamic';
-import { NetworkInfo } from '@terra-money/wallet-provider';
 import networks from '../utils/networks';
 
 const DynamicWalletProvider: any = dynamic(
@@ -11,7 +10,7 @@ const DynamicWalletProvider: any = dynamic(
   { ssr: false },
 );
 
-const walletConnectChainIds: Record<number, NetworkInfo> = {
+const walletConnectChainIds: Record<number, any> = {
   0: networks.testnet,
   1: networks.mainnet,
 };

@@ -322,9 +322,9 @@ interface InputViewProps {
   onSend: (data: any, post: any) => void;
 }
 interface ModalDisplayState {
-  isVisible: boolean;
-  setVisible: (state: boolean) => void;
-  InputView: React.FC<InputViewProps>;
+  isVisible?: boolean;
+  setVisible?: (state: boolean) => void;
+  InputView?: React.FC<InputViewProps>;
 }
 
 interface SendModalTipState {

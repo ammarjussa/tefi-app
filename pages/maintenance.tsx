@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import { Flex, Text, Box } from '@contco/core-ui';
+import { Flex, Text, Box } from '@core-ui/index';
 import styled from 'styled-components';
 import { css } from '@styled-system/css';
 import Head from 'next/head';
