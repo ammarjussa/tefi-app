@@ -1,4 +1,4 @@
-import { FEED_ICON, SEND_ICON, API_ICON, DAO_ICON, FORUM_ICON } from '../Icons';
+import { FEED_ICON, SEND_ICON, API_ICON, DAO_ICON, FORUM_ICON, SUPPLY_ICON } from '../Icons';
 
 export const INTERNAL_LINKS = [
   {
@@ -25,6 +25,11 @@ export const INTERNAL_LINKS = [
     component: FORUM_ICON,
     url: '/agora',
     name: 'Agora',
+  },
+  {
+    component: SUPPLY_ICON,
+    url: '/supply',
+    name: 'Supply',
   },
 ];
 
