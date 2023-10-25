@@ -17,7 +17,7 @@ const RedirectProvider: FC<RedirectProviderProps> = ({ children }) => {
 
     if (router.pathname === '/') {
       if (localAddress || connectedWallet?.terraAddress) {
-        router.push('/club');
+        router.push('/dashboard');
       }
     } else if (router.pathname === '/club') {
       if (!localAddress && !connectedWallet?.terraAddress) {
